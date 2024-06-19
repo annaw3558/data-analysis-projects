@@ -74,7 +74,7 @@ def get_city_names():
     ]
     
     # Format the city name for readability and create url for each city
-    for city_name in city_name_list[0:4]:
+    for city_name in city_name_list:
         city = city_name.replace("Costco ", "")
         
         url_city = re.sub('[^A-Za-z0-9]+', '-', city_name.lower())
@@ -191,6 +191,6 @@ def main():
     
     # Save to csv
     current_time_csv_tag = re.sub('[^A-Za-z0-9]+', '_', current_time)
-    # costco_cleaned_df.to_csv(f"Costco_Wait_Times_US_{current_time_csv_tag}.csv")
+    costco_cleaned_df.to_csv(f"Costco_Wait_Times_US_{current_time_csv_tag}.csv")
     
 main()
