@@ -7,12 +7,13 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 def get_web_data(url):
-    """_summary_
-
-    :param _type_ url: _description_
-    :return _type_: _description_
     """
-    
+    Scrapes web data from a supplied url. This is a simple approach
+    that uses the BeautifulSoup html parser. 
+
+    :param String url: Source URL to pull data from.
+    :return BeautifulSoup Object: HTML contents of the parsed url.
+    """
     # Making a GET request
     try:
         r = requests.get(url)
@@ -31,6 +32,14 @@ def get_web_data(url):
     return soup
 
 def get_city_names():
+    """
+    Pulls all available cities that have Costco wait time information.
+    Right now we have this as a manually generated list but can 
+    convert this in the future to dynamically pull from isitpacked.com.
+
+    :return dict: A dictionary containing the city names and associated 
+        URLs.
+    """
     city_url_dict = {}
     # For right now, won't get the company names dynamically. There
     # is a radius slider on the website that doesn't allos you to pull
@@ -64,7 +73,8 @@ def get_city_names():
         "Costco San Diego"
     ]
     
-    for city_name in city_name_list:
+    # Format the city name for readability and create url for each city
+    for city_name in city_name_list[0:4]:
         city = city_name.replace("Costco ", "")
         
         url_city = re.sub('[^A-Za-z0-9]+', '-', city_name.lower())
@@ -75,6 +85,18 @@ def get_city_names():
     return city_url_dict
 
 def extract_costco_data(soup):
+    """
+    Parses through the pulled soup contents and separates out the 
+    necessary data needed for our analysis:
+        1. City name
+        2. Average wait time within the city
+        3. Costco locations within the city
+        4. Wait times reported for each location
+
+    :param : BeautifulSoup Object soup: HTML contents of the parsed url.
+    :return dict: dictionary containing the above information. Location
+        names and wait times are in dict format.
+    """
     # Parse through soup object to get the required live data
     city_name_soup = soup.find("div", class_="rpt_plan").find("div", class_="rpt_recurrence")
     city_name = city_name_soup.find("strong").get_text()
@@ -100,20 +122,29 @@ def extract_costco_data(soup):
                     print("IndexError: Couldn't pull any values for this row")
                     print(col)
                 # Else, the col variable was empty 
-                # col[0].contents or col[1].contents delivered an empty list []
-
-    # print("City Name:")
-    # print(city_name)
-    # print("City Average Wait:") 
-    # print(city_avg_wait)
-    # print("Average wait for locations within city:")
-    # print(city_locations_dict)
+                    # not an error, just no more location data for this city
+                    # col[0].contents or col[1].contents are an empty list []
     
-    return {"city_name": city_name,
-            "city_avg_wait": city_avg_wait,
-            "city_locations_info": city_locations_dict}
+    costco_city_info_dict = {"city_name": city_name,
+                             "city_avg_wait": city_avg_wait,
+                             "city_locations_info": city_locations_dict}
+    
+    return costco_city_info_dict
     
 def costco_data_cleanup(costco_wait_times_list):
+    """
+    Create a pandas dataframe out of the initial costco info dictionary
+    for easier downstream use/analysis. 
+    
+    :param list costco_wait_times_list: List of all Costco city info
+        dictionaries. [{city1 information}, {city2 information}, ...]
+    :return Pandas DataFrame: cleaned dataframe of the following 
+        structure:
+            city_name         object
+            city_avg_wait      int64
+            store_location    object
+            location_wait      int64
+    """
     temp_costco_df = pd.DataFrame.from_dict(costco_wait_times_list)
     
     # We need to explode out the dictionary in the city_locations_info 
@@ -123,12 +154,17 @@ def costco_data_cleanup(costco_wait_times_list):
         
     costco_cleaned_df = temp_costco_df[['city_name', 'city_avg_wait']].join(store_location_df).reset_index(drop=True)
     
+    # Convert the wait times from String "xmin" to int x
     for col_name in ['city_avg_wait', 'location_wait']:
         costco_cleaned_df[col_name] = costco_cleaned_df[col_name].str.replace("min", "").astype(int)
     
     return costco_cleaned_df
 
 def main():
+    """
+    Driver function. Once completed, data is saved to a csv with the 
+    time run as the indentifying key.
+    """
     current_time = datetime.now().isoformat(' ', 'minutes')
     costco_wait_times_list = []
     
@@ -138,23 +174,23 @@ def main():
         print(f"Pulling Costco wait time data for   {city_name}   as of {current_time}...")
     
         soup = get_web_data(url)
-    
+
+        # Continue if data exists for URL
         if soup:
             costco_city_info_dict = extract_costco_data(soup)
-            # print(costco_city_info_dict)
             
             costco_wait_times_list.append(costco_city_info_dict)
         else:
             print("There was an error pulling website data. Nothing to parse.")
     
-    #data cleanup and convert to pandas df [:-3]
-    print("Finished pulling all city data.")
-    print(len(costco_wait_times_list))
+    # Data cleanup and convert to pandas df [:-3]
+    print(f"Finished pulling all city data. There is data available for {len(costco_wait_times_list)} cities.")
     
     costco_cleaned_df = costco_data_cleanup(costco_wait_times_list)
-    print(costco_cleaned_df.dtypes)
+    print(f"Final DF dtypes: {costco_cleaned_df.dtypes}")
     
+    # Save to csv
     current_time_csv_tag = re.sub('[^A-Za-z0-9]+', '_', current_time)
-    costco_cleaned_df.to_csv(f"Costco_Wait_Times_US_{current_time_csv_tag}.csv")
+    # costco_cleaned_df.to_csv(f"Costco_Wait_Times_US_{current_time_csv_tag}.csv")
     
 main()
