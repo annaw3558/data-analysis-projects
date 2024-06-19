@@ -1,0 +1,231 @@
+,city_name,city_avg_wait,store_location,location_wait
+0,"Orange County, CA",14,Cypress,10
+1,"Orange County, CA",14,Fountain Valley,1
+2,"Orange County, CA",14,Fullerton,20
+3,"Orange County, CA",14,Garden Grove,15
+4,"Orange County, CA",14,Huntington Beach,15
+5,"Orange County, CA",14,Irvine,10
+6,"Orange County, CA",14,La Habra,15
+7,"Orange County, CA",14,Laguna Marketplace,30
+8,"Orange County, CA",14,Laguna Niguel,10
+9,"Orange County, CA",14,San Juan Capistrano,15
+10,"Orange County, CA",14,Tustin,5
+11,"Orange County, CA",14,Tustin Ranch,20
+12,"Orange County, CA",14,Westminster Business Center,10
+13,"Orange County, CA",14,Yorba Linda,15
+14,Tampa Bay,16,Brandon,15
+15,Tampa Bay,16,W Tampa (Linebaugh Ave),10
+16,Tampa Bay,16,Clearwater,20
+17,Tampa Bay,16,Wesley Chapel,15
+18,Tampa Bay,16,Bradenton,15
+19,Tampa Bay,16,Sarasota Mall,20
+20,Detroit,21,Roseville,5
+21,Detroit,21,Madison Heights,20
+22,Detroit,21,Middlebelt,20
+23,Detroit,21,Haggerty,15
+24,Detroit,21,Lakeside,20
+25,Detroit,21,Bloomfield,60
+26,Detroit,21,Commerce Township,15
+27,Detroit,21,Auburn Hills,15
+28,Detroit,21,Ann Arbor,20
+29,Detroit,21,Brighton,15
+30,Portland,16,Tigard,20
+31,Portland,16,Clackamas,15
+32,Portland,16,Aloha,15
+33,Portland,16,Portland,5
+34,Portland,16,Vancouver WA,20
+35,Portland,16,E Vancouver WA,15
+36,Portland,16,Hillsboro,15
+37,Portland,16,Wilsonville,20
+38,Minneapolis,12,Minneapolis Business Center,5
+39,Minneapolis,12,St Louis Park,10
+40,Minneapolis,12,Eagan,20
+41,Minneapolis,12,Maple Grove,5
+42,Minneapolis,12,Eden Prairie,20
+43,Minneapolis,12,Maplewood,15
+44,Minneapolis,12,Woodbury,15
+45,Minneapolis,12,Coon Rapids,5
+46,Minneapolis,12,Burnsville,10
+47,Phoenix,17,Phoenix Business Center,10
+48,Phoenix,17,Phoenix (Montebello Ave),15
+49,Phoenix,17,Thomas Road (Arcadia Crossing),20
+50,Phoenix,17,Tempe,5
+51,Phoenix,17,Avondale,30
+52,Phoenix,17,Paradise Valley,20
+53,Phoenix,17,Gilbert (Arizona Ave),30
+54,Phoenix,17,Chandler,20
+55,Phoenix,17,N Phoenix (27th Ave),10
+56,Phoenix,17,Cave Creek,20
+57,Phoenix,17,Scottsdale,20
+58,Phoenix,17,Glendale,15
+59,Phoenix,17,SE Gilbert (Market St),5
+60,Phoenix,17,Mesa,20
+61,Atlanta,13,Brookhaven,10
+62,Atlanta,13,Cumberland Mall,5
+63,Atlanta,13,Perimeter,20
+64,Atlanta,13,Morrow Business Center,5
+65,Atlanta,13,Gwinnett,5
+66,Atlanta,13,Town Center,20
+67,Atlanta,13,Alpharetta,15
+68,Atlanta,13,Woodstock,20
+69,Atlanta,13,Sharpsburg,15
+70,Atlanta,13,Mall Of Georgia,15
+71,Atlanta,13,Cumming,15
+72,Denver,9,Denver Business Center,5
+73,Denver,9,Arvada,5
+74,Denver,9,Sheridan,10
+75,Denver,9,Aurora,10
+76,Denver,9,SW Denver (Quincy Ave),10
+77,Denver,9,Westminster,10
+78,Denver,9,Douglas County (Park Meadows),5
+79,Denver,9,Parker,15
+80,Denver,9,Thornton,10
+81,Denver,9,Superior,15
+82,Denver,9,Timnath,5
+83,Seattle,12,Seattle,1
+84,Seattle,12,Kirkland,1
+85,Seattle,12,Tukwila,30
+86,Seattle,12,Redmond,20
+87,Seattle,12,Aurora Village,15
+88,Seattle,12,Issaquah,1
+89,Seattle,12,Woodinville,15
+90,Seattle,12,Lynnwood Business Center,5
+91,Seattle,12,Lynnwood,15
+92,Seattle,12,Silverdale,20
+93,Seattle,12,Covington,15
+94,Seattle,12,Gig Harbor,5
+95,Seattle,12,Everett,15
+96,Seattle,12,Federal Way,5
+97,Seattle,12,Fife Business Center,5
+98,Seattle,12,Tacoma,15
+99,Seattle,12,Puyallup,5
+100,Seattle,12,Bonney Lake,20
+101,Seattle,12,Marysville,15
+102,Chicago,13,Chicago South Loop,10
+103,Chicago,13,Lincoln Park,15
+104,Chicago,13,North Riverside IL,15
+105,Chicago,13,Bedford Park Business Center,10
+106,Chicago,13,Melrose Park,5
+107,Chicago,13,Niles,15
+108,Chicago,13,Oak Brook,20
+109,Chicago,13,Glenview,1
+110,Chicago,13,Mt Prospect,20
+111,Chicago,13,Orland Park,10
+112,Chicago,13,Bolingbrook,20
+113,Chicago,13,Schaumburg,10
+114,Chicago,13,Bloomingdale,15
+115,Chicago,13,Mettawa,15
+116,Chicago,13,Lake Zurich,20
+117,Chicago,13,Naperville,10
+118,Chicago,13,Merrillville,5
+119,Chicago,13,St Charles,15
+120,Chicago,13,Lake In The Hills,20
+121,Houston,23,Cypress,5
+122,Houston,23,Galleria,120
+123,Houston,23,Bunker Hill,5
+124,Houston,23,Pearland,15
+125,Houston,23,Willowbrook,10
+126,Houston,23,Humble,5
+127,Houston,23,Sugar Land,15
+128,Houston,23,Webster,15
+129,Houston,23,W Katy,15
+130,Houston,23,Woodlands,20
+131,Miami,10,Miami,10
+132,Miami,10,N Miami,15
+133,Miami,10,Miami Lakes,15
+134,Miami,10,Kendall,10
+135,Miami,10,Pembroke Pines,5
+136,Miami,10,Davie,5
+137,Miami,10,Pompano,5
+138,Miami,10,Coral Springs,15
+139,Miami,10,Boca Raton,10
+140,Miami,10,Lantana,5
+141,Miami,10,Royal Palm Beach,10
+142,Miami,10,Palm Beach Gardens,15
+143,New York,15,Brooklyn,10
+144,New York,15,Queens,60
+145,New York,15,Manhattan,15
+146,New York,15,Rego Park,15
+147,New York,15,Staten Island,10
+148,New York,15,Lawrence,20
+149,New York,15,New Rochelle,20
+150,New York,15,Yonkers,15
+151,New York,15,Oceanside,1
+152,New York,15,Westbury,15
+153,New York,15,Port Chester,5
+154,New York,15,Nanuet,15
+155,New York,15,Melville,5
+156,New York,15,Commack,15
+157,New York,15,Nesconset,10
+158,New York,15,Holbrook,10
+159,New York,15,Riverhead,20
+160,Inland Empire,18,Chino Hills,5
+161,Inland Empire,18,Eastvale,15
+162,Inland Empire,18,Fontana,45
+163,Inland Empire,18,Lake Elsinore,20
+164,Inland Empire,18,Lancaster,20
+165,Inland Empire,18,Montclair,15
+166,Inland Empire,18,Moreno Valley,20
+167,Inland Empire,18,Rancho Cucamonga,5
+168,Inland Empire,18,San Bernardino,5
+169,Inland Empire,18,Temecula,30
+170,Inland Empire,18,Victorville,20
+171,Los Angeles,14,Alhambra,5
+172,Los Angeles,14,Azusa,20
+173,Los Angeles,14,Burbank,5
+174,Los Angeles,14,Burbank Business Center,20
+175,Los Angeles,14,City of Industry,15
+176,Los Angeles,14,Commerce Business Center,20
+177,Los Angeles,14,Culver City,30
+178,Los Angeles,14,Hawthorne,15
+179,Los Angeles,14,Hawthorne Business Center,10
+180,Los Angeles,14,Inglewood,10
+181,Los Angeles,14,Lakewood,20
+182,Los Angeles,14,Los Feliz,1
+183,Los Angeles,14,Monterey Park,20
+184,Los Angeles,14,Northridge,5
+185,Los Angeles,14,Norwalk,10
+186,Los Angeles,14,Oxnard,15
+187,Los Angeles,14,Pacoima,30
+188,Los Angeles,14,San Dimas,15
+189,Los Angeles,14,Santa Clarita,10
+190,Los Angeles,14,Signal Hill,5
+191,Los Angeles,14,Simi Valley,10
+192,Los Angeles,14,Torrance,10
+193,Los Angeles,14,Van Nuys,15
+194,Los Angeles,14,Westlake Village,30
+195,Los Angeles,14,Woodland Hills,10
+196,Dallas/Fort Worth,15,Arlington,5
+197,Dallas/Fort Worth,15,Dallas,30
+198,Dallas/Fort Worth,15,Dallas Business Center,10
+199,Dallas/Fort Worth,15,Duncanville,20
+200,Dallas/Fort Worth,15,E Plano,20
+201,Dallas/Fort Worth,15,Fort Worth,20
+202,Dallas/Fort Worth,15,Frisco,20
+203,Dallas/Fort Worth,15,Lewisville,20
+204,Dallas/Fort Worth,15,McKinney,15
+205,Dallas/Fort Worth,15,N Fort Worth,15
+206,Dallas/Fort Worth,15,Rockwall,5
+207,Dallas/Fort Worth,15,Southlake,1
+208,Dallas/Fort Worth,15,W Plano,20
+209,Las Vegas,12,SW Henderson (Saint Rose Pkwy),30
+210,Las Vegas,12,Henderson (Marks St),5
+211,Las Vegas,12,Summerlin,5
+212,Las Vegas,12,Centennial,5
+213,Las Vegas,12,Las Vegas Business Center,15
+214,San Diego,18,Carlsbad,20
+215,San Diego,18,Carmel Mountain,5
+216,San Diego,18,Chula Vista,5
+217,San Diego,18,El Centro,30
+218,San Diego,18,La Mesa,15
+219,San Diego,18,La Quinta,15
+220,San Diego,18,Mission Valley,20
+221,San Diego,18,Morena,30
+222,San Diego,18,Palm Desert,20
+223,San Diego,18,Poway,20
+224,San Diego,18,Rancho Del Rey,15
+225,San Diego,18,San Diego Business Center,10
+226,San Diego,18,San Marcos,30
+227,San Diego,18,Santee,20
+228,San Diego,18,SE San Diego,30
+229,San Diego,18,Vista,1
