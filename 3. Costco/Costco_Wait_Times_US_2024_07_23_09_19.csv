@@ -1,0 +1,231 @@
+,city_name,city_avg_wait,store_location,location_wait,load_time
+0,Orange County,Closed,Cypress,1,2024-07-23 09:19
+1,Orange County,Closed,Fountain Valley,1,2024-07-23 09:19
+2,Orange County,Closed,Fullerton,Closed,2024-07-23 09:19
+3,Orange County,Closed,Garden Grove,1,2024-07-23 09:19
+4,Orange County,Closed,Huntington Beach,Closed,2024-07-23 09:19
+5,Orange County,Closed,Irvine,Closed,2024-07-23 09:19
+6,Orange County,Closed,La Habra,Closed,2024-07-23 09:19
+7,Orange County,Closed,Laguna Marketplace,Closed,2024-07-23 09:19
+8,Orange County,Closed,Laguna Niguel,Closed,2024-07-23 09:19
+9,Orange County,Closed,San Juan Capistrano,Closed,2024-07-23 09:19
+10,Orange County,Closed,Tustin,Closed,2024-07-23 09:19
+11,Orange County,Closed,Tustin Ranch,Closed,2024-07-23 09:19
+12,Orange County,Closed,Westminster Business Center,Closed,2024-07-23 09:19
+13,Orange County,Closed,Yorba Linda,Closed,2024-07-23 09:19
+14,Tampa Bay,13,Brandon,15,2024-07-23 09:19
+15,Tampa Bay,13,W Tampa (Linebaugh Ave),20,2024-07-23 09:19
+16,Tampa Bay,13,Clearwater,5,2024-07-23 09:19
+17,Tampa Bay,13,Wesley Chapel,5,2024-07-23 09:19
+18,Tampa Bay,13,Bradenton,20,2024-07-23 09:19
+19,Tampa Bay,13,Sarasota Mall,15,2024-07-23 09:19
+20,Detroit,14,Roseville,15,2024-07-23 09:19
+21,Detroit,14,Madison Heights,15,2024-07-23 09:19
+22,Detroit,14,Middlebelt,15,2024-07-23 09:19
+23,Detroit,14,Haggerty,15,2024-07-23 09:19
+24,Detroit,14,Lakeside,15,2024-07-23 09:19
+25,Detroit,14,Bloomfield,20,2024-07-23 09:19
+26,Detroit,14,Commerce Township,5,2024-07-23 09:19
+27,Detroit,14,Auburn Hills,10,2024-07-23 09:19
+28,Detroit,14,Ann Arbor,5,2024-07-23 09:19
+29,Detroit,14,Brighton,20,2024-07-23 09:19
+30,Portland,Closed,Tigard,Closed,2024-07-23 09:19
+31,Portland,Closed,Clackamas,Closed,2024-07-23 09:19
+32,Portland,Closed,Aloha,Closed,2024-07-23 09:19
+33,Portland,Closed,Portland,Closed,2024-07-23 09:19
+34,Portland,Closed,Vancouver WA,Closed,2024-07-23 09:19
+35,Portland,Closed,E Vancouver WA,Closed,2024-07-23 09:19
+36,Portland,Closed,Hillsboro,Closed,2024-07-23 09:19
+37,Portland,Closed,Wilsonville,Closed,2024-07-23 09:19
+38,Minneapolis,12,Minneapolis Business Center,10,2024-07-23 09:19
+39,Minneapolis,12,St Louis Park,1,2024-07-23 09:19
+40,Minneapolis,12,Eagan,10,2024-07-23 09:19
+41,Minneapolis,12,Maple Grove,10,2024-07-23 09:19
+42,Minneapolis,12,Eden Prairie,20,2024-07-23 09:19
+43,Minneapolis,12,Maplewood,20,2024-07-23 09:19
+44,Minneapolis,12,Woodbury,15,2024-07-23 09:19
+45,Minneapolis,12,Coon Rapids,15,2024-07-23 09:19
+46,Minneapolis,12,Burnsville,10,2024-07-23 09:19
+47,Phoenix,2,Phoenix Business Center,Closed,2024-07-23 09:19
+48,Phoenix,2,Phoenix (Montebello Ave),Closed,2024-07-23 09:19
+49,Phoenix,2,Thomas Road (Arcadia Crossing),5,2024-07-23 09:19
+50,Phoenix,2,Tempe,Closed,2024-07-23 09:19
+51,Phoenix,2,Avondale,Closed,2024-07-23 09:19
+52,Phoenix,2,Paradise Valley,Closed,2024-07-23 09:19
+53,Phoenix,2,Gilbert (Arizona Ave),Closed,2024-07-23 09:19
+54,Phoenix,2,Chandler,Closed,2024-07-23 09:19
+55,Phoenix,2,N Phoenix (27th Ave),Closed,2024-07-23 09:19
+56,Phoenix,2,Cave Creek,Closed,2024-07-23 09:19
+57,Phoenix,2,Scottsdale,Closed,2024-07-23 09:19
+58,Phoenix,2,Glendale,Closed,2024-07-23 09:19
+59,Phoenix,2,SE Gilbert (Market St),Closed,2024-07-23 09:19
+60,Phoenix,2,Mesa,20,2024-07-23 09:19
+61,Atlanta,12,Brookhaven,20,2024-07-23 09:19
+62,Atlanta,12,Cumberland Mall,5,2024-07-23 09:19
+63,Atlanta,12,Perimeter,20,2024-07-23 09:19
+64,Atlanta,12,Morrow Business Center,15,2024-07-23 09:19
+65,Atlanta,12,Gwinnett,5,2024-07-23 09:19
+66,Atlanta,12,Town Center,5,2024-07-23 09:19
+67,Atlanta,12,Alpharetta,15,2024-07-23 09:19
+68,Atlanta,12,Woodstock,15,2024-07-23 09:19
+69,Atlanta,12,Sharpsburg,10,2024-07-23 09:19
+70,Atlanta,12,Mall Of Georgia,15,2024-07-23 09:19
+71,Atlanta,12,Cumming,5,2024-07-23 09:19
+72,Denver,7,Denver Business Center,1,2024-07-23 09:19
+73,Denver,7,Arvada,1,2024-07-23 09:19
+74,Denver,7,Sheridan,15,2024-07-23 09:19
+75,Denver,7,Aurora,20,2024-07-23 09:19
+76,Denver,7,SW Denver (Quincy Ave),1,2024-07-23 09:19
+77,Denver,7,Westminster,10,2024-07-23 09:19
+78,Denver,7,Douglas County (Park Meadows),20,2024-07-23 09:19
+79,Denver,7,Parker,. . .,2024-07-23 09:19
+80,Denver,7,Thornton,. . .,2024-07-23 09:19
+81,Denver,7,Superior,10,2024-07-23 09:19
+82,Denver,7,Timnath,1,2024-07-23 09:19
+83,Seattle,Closed,Seattle,Closed,2024-07-23 09:19
+84,Seattle,Closed,Kirkland,Closed,2024-07-23 09:19
+85,Seattle,Closed,Tukwila,Closed,2024-07-23 09:19
+86,Seattle,Closed,Redmond,Closed,2024-07-23 09:19
+87,Seattle,Closed,Aurora Village,Closed,2024-07-23 09:19
+88,Seattle,Closed,Issaquah,Closed,2024-07-23 09:19
+89,Seattle,Closed,Woodinville,Closed,2024-07-23 09:19
+90,Seattle,Closed,Lynnwood Business Center,Closed,2024-07-23 09:19
+91,Seattle,Closed,Lynnwood,Closed,2024-07-23 09:19
+92,Seattle,Closed,Silverdale,Closed,2024-07-23 09:19
+93,Seattle,Closed,Covington,Closed,2024-07-23 09:19
+94,Seattle,Closed,Gig Harbor,Closed,2024-07-23 09:19
+95,Seattle,Closed,Everett,Closed,2024-07-23 09:19
+96,Seattle,Closed,Federal Way,Closed,2024-07-23 09:19
+97,Seattle,Closed,Fife Business Center,Closed,2024-07-23 09:19
+98,Seattle,Closed,Tacoma,Closed,2024-07-23 09:19
+99,Seattle,Closed,Puyallup,Closed,2024-07-23 09:19
+100,Seattle,Closed,Bonney Lake,Closed,2024-07-23 09:19
+101,Seattle,Closed,Marysville,Closed,2024-07-23 09:19
+102,Chicago,13,Chicago South Loop,15,2024-07-23 09:19
+103,Chicago,13,Lincoln Park,10,2024-07-23 09:19
+104,Chicago,13,North Riverside IL,15,2024-07-23 09:19
+105,Chicago,13,Bedford Park Business Center,5,2024-07-23 09:19
+106,Chicago,13,Melrose Park,15,2024-07-23 09:19
+107,Chicago,13,Niles,10,2024-07-23 09:19
+108,Chicago,13,Oak Brook,15,2024-07-23 09:19
+109,Chicago,13,Glenview,15,2024-07-23 09:19
+110,Chicago,13,Mt Prospect,10,2024-07-23 09:19
+111,Chicago,13,Orland Park,15,2024-07-23 09:19
+112,Chicago,13,Bolingbrook,20,2024-07-23 09:19
+113,Chicago,13,Schaumburg,5,2024-07-23 09:19
+114,Chicago,13,Bloomingdale,20,2024-07-23 09:19
+115,Chicago,13,Mettawa,20,2024-07-23 09:19
+116,Chicago,13,Lake Zurich,10,2024-07-23 09:19
+117,Chicago,13,Naperville,5,2024-07-23 09:19
+118,Chicago,13,Merrillville,20,2024-07-23 09:19
+119,Chicago,13,St Charles,10,2024-07-23 09:19
+120,Chicago,13,Lake In The Hills,15,2024-07-23 09:19
+121,Houston,11,Cypress,15,2024-07-23 09:19
+122,Houston,11,Galleria,15,2024-07-23 09:19
+123,Houston,11,Bunker Hill,15,2024-07-23 09:19
+124,Houston,11,Pearland,20,2024-07-23 09:19
+125,Houston,11,Willowbrook,5,2024-07-23 09:19
+126,Houston,11,Humble,5,2024-07-23 09:19
+127,Houston,11,Sugar Land,5,2024-07-23 09:19
+128,Houston,11,Webster,5,2024-07-23 09:19
+129,Houston,11,W Katy,15,2024-07-23 09:19
+130,Houston,11,Woodlands,5,2024-07-23 09:19
+131,Miami,13,Miami,10,2024-07-23 09:19
+132,Miami,13,N Miami,5,2024-07-23 09:19
+133,Miami,13,Miami Lakes,20,2024-07-23 09:19
+134,Miami,13,Kendall,15,2024-07-23 09:19
+135,Miami,13,Pembroke Pines,15,2024-07-23 09:19
+136,Miami,13,Davie,20,2024-07-23 09:19
+137,Miami,13,Pompano,5,2024-07-23 09:19
+138,Miami,13,Coral Springs,5,2024-07-23 09:19
+139,Miami,13,Boca Raton,10,2024-07-23 09:19
+140,Miami,13,Lantana,15,2024-07-23 09:19
+141,Miami,13,Royal Palm Beach,20,2024-07-23 09:19
+142,Miami,13,Palm Beach Gardens,10,2024-07-23 09:19
+143,New York City,13,Brooklyn,20,2024-07-23 09:19
+144,New York City,13,Queens,1,2024-07-23 09:19
+145,New York City,13,Manhattan,20,2024-07-23 09:19
+146,New York City,13,Rego Park,15,2024-07-23 09:19
+147,New York City,13,Staten Island,10,2024-07-23 09:19
+148,New York City,13,Lawrence,5,2024-07-23 09:19
+149,New York City,13,New Rochelle,15,2024-07-23 09:19
+150,New York City,13,Yonkers,10,2024-07-23 09:19
+151,New York City,13,Oceanside,30,2024-07-23 09:19
+152,New York City,13,Westbury,15,2024-07-23 09:19
+153,New York City,13,Port Chester,5,2024-07-23 09:19
+154,New York City,13,Nanuet,15,2024-07-23 09:19
+155,New York City,13,Melville,10,2024-07-23 09:19
+156,New York City,13,Commack,20,2024-07-23 09:19
+157,New York City,13,Nesconset,10,2024-07-23 09:19
+158,New York City,13,Holbrook,15,2024-07-23 09:19
+159,New York City,13,Riverhead,5,2024-07-23 09:19
+160,Inland Empire,Closed,Chino Hills,Closed,2024-07-23 09:19
+161,Inland Empire,Closed,Eastvale,Closed,2024-07-23 09:19
+162,Inland Empire,Closed,Fontana,Closed,2024-07-23 09:19
+163,Inland Empire,Closed,Lake Elsinore,Closed,2024-07-23 09:19
+164,Inland Empire,Closed,Lancaster,Closed,2024-07-23 09:19
+165,Inland Empire,Closed,Montclair,Closed,2024-07-23 09:19
+166,Inland Empire,Closed,Moreno Valley,Closed,2024-07-23 09:19
+167,Inland Empire,Closed,Rancho Cucamonga,Closed,2024-07-23 09:19
+168,Inland Empire,Closed,San Bernardino,Closed,2024-07-23 09:19
+169,Inland Empire,Closed,Temecula,Closed,2024-07-23 09:19
+170,Inland Empire,Closed,Victorville,Closed,2024-07-23 09:19
+171,Los Angeles,1,Alhambra,Closed,2024-07-23 09:19
+172,Los Angeles,1,Azusa,Closed,2024-07-23 09:19
+173,Los Angeles,1,Burbank,Closed,2024-07-23 09:19
+174,Los Angeles,1,Burbank Business Center,Closed,2024-07-23 09:19
+175,Los Angeles,1,City of Industry,Closed,2024-07-23 09:19
+176,Los Angeles,1,Commerce Business Center,Closed,2024-07-23 09:19
+177,Los Angeles,1,Culver City,Closed,2024-07-23 09:19
+178,Los Angeles,1,Hawthorne,Closed,2024-07-23 09:19
+179,Los Angeles,1,Hawthorne Business Center,Closed,2024-07-23 09:19
+180,Los Angeles,1,Inglewood,Closed,2024-07-23 09:19
+181,Los Angeles,1,Lakewood,Closed,2024-07-23 09:19
+182,Los Angeles,1,Los Feliz,Closed,2024-07-23 09:19
+183,Los Angeles,1,Monterey Park,Closed,2024-07-23 09:19
+184,Los Angeles,1,Northridge,Closed,2024-07-23 09:19
+185,Los Angeles,1,Norwalk,Closed,2024-07-23 09:19
+186,Los Angeles,1,Oxnard,Closed,2024-07-23 09:19
+187,Los Angeles,1,Pacoima,Closed,2024-07-23 09:19
+188,Los Angeles,1,San Dimas,Closed,2024-07-23 09:19
+189,Los Angeles,1,Santa Clarita,Closed,2024-07-23 09:19
+190,Los Angeles,1,Signal Hill,Closed,2024-07-23 09:19
+191,Los Angeles,1,Simi Valley,Closed,2024-07-23 09:19
+192,Los Angeles,1,Torrance,15,2024-07-23 09:19
+193,Los Angeles,1,Van Nuys,Closed,2024-07-23 09:19
+194,Los Angeles,1,Westlake Village,Closed,2024-07-23 09:19
+195,Los Angeles,1,Woodland Hills,Closed,2024-07-23 09:19
+196,Dallas/Fort Worth,15,Arlington,15,2024-07-23 09:19
+197,Dallas/Fort Worth,15,Dallas,30,2024-07-23 09:19
+198,Dallas/Fort Worth,15,Dallas Business Center,20,2024-07-23 09:19
+199,Dallas/Fort Worth,15,Duncanville,15,2024-07-23 09:19
+200,Dallas/Fort Worth,15,E Plano,5,2024-07-23 09:19
+201,Dallas/Fort Worth,15,Fort Worth,5,2024-07-23 09:19
+202,Dallas/Fort Worth,15,Frisco,20,2024-07-23 09:19
+203,Dallas/Fort Worth,15,Lewisville,15,2024-07-23 09:19
+204,Dallas/Fort Worth,15,McKinney,15,2024-07-23 09:19
+205,Dallas/Fort Worth,15,N Fort Worth,15,2024-07-23 09:19
+206,Dallas/Fort Worth,15,Rockwall,5,2024-07-23 09:19
+207,Dallas/Fort Worth,15,Southlake,10,2024-07-23 09:19
+208,Dallas/Fort Worth,15,W Plano,30,2024-07-23 09:19
+209,Las Vegas,2,SW Henderson (Saint Rose Pkwy),Closed,2024-07-23 09:19
+210,Las Vegas,2,Henderson (Marks St),10,2024-07-23 09:19
+211,Las Vegas,2,Summerlin,Closed,2024-07-23 09:19
+212,Las Vegas,2,Centennial,Closed,2024-07-23 09:19
+213,Las Vegas,2,Las Vegas Business Center,1,2024-07-23 09:19
+214,San Diego,8,Carlsbad,Closed,2024-07-23 09:19
+215,San Diego,8,Carmel Mountain,Closed,2024-07-23 09:19
+216,San Diego,8,Chula Vista,Closed,2024-07-23 09:19
+217,San Diego,8,El Centro,Closed,2024-07-23 09:19
+218,San Diego,8,La Mesa,Closed,2024-07-23 09:19
+219,San Diego,8,La Quinta,Closed,2024-07-23 09:19
+220,San Diego,8,Mission Valley,1,2024-07-23 09:19
+221,San Diego,8,Morena,Closed,2024-07-23 09:19
+222,San Diego,8,Palm Desert,Closed,2024-07-23 09:19
+223,San Diego,8,Poway,Closed,2024-07-23 09:19
+224,San Diego,8,Rancho Del Rey,Closed,2024-07-23 09:19
+225,San Diego,8,San Diego Business Center,Closed,2024-07-23 09:19
+226,San Diego,8,San Marcos,Closed,2024-07-23 09:19
+227,San Diego,8,Santee,Closed,2024-07-23 09:19
+228,San Diego,8,SE San Diego,120,2024-07-23 09:19
+229,San Diego,8,Vista,Closed,2024-07-23 09:19

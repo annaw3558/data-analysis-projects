@@ -1,0 +1,231 @@
+,city_name,city_avg_wait,store_location,location_wait,load_time
+0,Orange County,14,Cypress,10,2024-07-22 16:09
+1,Orange County,14,Fountain Valley,20,2024-07-22 16:09
+2,Orange County,14,Fullerton,15,2024-07-22 16:09
+3,Orange County,14,Garden Grove,15,2024-07-22 16:09
+4,Orange County,14,Huntington Beach,15,2024-07-22 16:09
+5,Orange County,14,Irvine,20,2024-07-22 16:09
+6,Orange County,14,La Habra,30,2024-07-22 16:09
+7,Orange County,14,Laguna Marketplace,15,2024-07-22 16:09
+8,Orange County,14,Laguna Niguel,5,2024-07-22 16:09
+9,Orange County,14,San Juan Capistrano,15,2024-07-22 16:09
+10,Orange County,14,Tustin,30,2024-07-22 16:09
+11,Orange County,14,Tustin Ranch,1,2024-07-22 16:09
+12,Orange County,14,Westminster Business Center,5,2024-07-22 16:09
+13,Orange County,14,Yorba Linda,5,2024-07-22 16:09
+14,Tampa Bay,9,Brandon,5,2024-07-22 16:09
+15,Tampa Bay,9,W Tampa (Linebaugh Ave),10,2024-07-22 16:09
+16,Tampa Bay,9,Clearwater,1,2024-07-22 16:09
+17,Tampa Bay,9,Wesley Chapel,15,2024-07-22 16:09
+18,Tampa Bay,9,Bradenton,10,2024-07-22 16:09
+19,Tampa Bay,9,Sarasota Mall,10,2024-07-22 16:09
+20,Detroit,10,Roseville,15,2024-07-22 16:09
+21,Detroit,10,Madison Heights,1,2024-07-22 16:09
+22,Detroit,10,Middlebelt,10,2024-07-22 16:09
+23,Detroit,10,Haggerty,10,2024-07-22 16:09
+24,Detroit,10,Lakeside,15,2024-07-22 16:09
+25,Detroit,10,Bloomfield,5,2024-07-22 16:09
+26,Detroit,10,Commerce Township,10,2024-07-22 16:09
+27,Detroit,10,Auburn Hills,15,2024-07-22 16:09
+28,Detroit,10,Ann Arbor,1,2024-07-22 16:09
+29,Detroit,10,Brighton,20,2024-07-22 16:09
+30,Portland,16,Tigard,15,2024-07-22 16:09
+31,Portland,16,Clackamas,30,2024-07-22 16:09
+32,Portland,16,Aloha,15,2024-07-22 16:09
+33,Portland,16,Portland,15,2024-07-22 16:09
+34,Portland,16,Vancouver WA,15,2024-07-22 16:09
+35,Portland,16,E Vancouver WA,15,2024-07-22 16:09
+36,Portland,16,Hillsboro,10,2024-07-22 16:09
+37,Portland,16,Wilsonville,15,2024-07-22 16:09
+38,Minneapolis,14,Minneapolis Business Center,10,2024-07-22 16:09
+39,Minneapolis,14,St Louis Park,5,2024-07-22 16:09
+40,Minneapolis,14,Eagan,20,2024-07-22 16:09
+41,Minneapolis,14,Maple Grove,10,2024-07-22 16:09
+42,Minneapolis,14,Eden Prairie,20,2024-07-22 16:09
+43,Minneapolis,14,Maplewood,20,2024-07-22 16:09
+44,Minneapolis,14,Woodbury,20,2024-07-22 16:09
+45,Minneapolis,14,Coon Rapids,10,2024-07-22 16:09
+46,Minneapolis,14,Burnsville,10,2024-07-22 16:09
+47,Phoenix,11,Phoenix Business Center,10,2024-07-22 16:09
+48,Phoenix,11,Phoenix (Montebello Ave),30,2024-07-22 16:09
+49,Phoenix,11,Thomas Road (Arcadia Crossing),5,2024-07-22 16:09
+50,Phoenix,11,Tempe,10,2024-07-22 16:09
+51,Phoenix,11,Avondale,5,2024-07-22 16:09
+52,Phoenix,11,Paradise Valley,5,2024-07-22 16:09
+53,Phoenix,11,Gilbert (Arizona Ave),20,2024-07-22 16:09
+54,Phoenix,11,Chandler,10,2024-07-22 16:09
+55,Phoenix,11,N Phoenix (27th Ave),10,2024-07-22 16:09
+56,Phoenix,11,Cave Creek,5,2024-07-22 16:09
+57,Phoenix,11,Scottsdale,10,2024-07-22 16:09
+58,Phoenix,11,Glendale,10,2024-07-22 16:09
+59,Phoenix,11,SE Gilbert (Market St),5,2024-07-22 16:09
+60,Phoenix,11,Mesa,15,2024-07-22 16:09
+61,Atlanta,11,Brookhaven,5,2024-07-22 16:09
+62,Atlanta,11,Cumberland Mall,1,2024-07-22 16:09
+63,Atlanta,11,Perimeter,15,2024-07-22 16:09
+64,Atlanta,11,Morrow Business Center,20,2024-07-22 16:09
+65,Atlanta,11,Gwinnett,10,2024-07-22 16:09
+66,Atlanta,11,Town Center,15,2024-07-22 16:09
+67,Atlanta,11,Alpharetta,20,2024-07-22 16:09
+68,Atlanta,11,Woodstock,5,2024-07-22 16:09
+69,Atlanta,11,Sharpsburg,1,2024-07-22 16:09
+70,Atlanta,11,Mall Of Georgia,15,2024-07-22 16:09
+71,Atlanta,11,Cumming,15,2024-07-22 16:09
+72,Denver,16,Denver Business Center,5,2024-07-22 16:09
+73,Denver,16,Arvada,20,2024-07-22 16:09
+74,Denver,16,Sheridan,5,2024-07-22 16:09
+75,Denver,16,Aurora,60,2024-07-22 16:09
+76,Denver,16,SW Denver (Quincy Ave),20,2024-07-22 16:09
+77,Denver,16,Westminster,5,2024-07-22 16:09
+78,Denver,16,Douglas County (Park Meadows),15,2024-07-22 16:09
+79,Denver,16,Parker,10,2024-07-22 16:09
+80,Denver,16,Thornton,5,2024-07-22 16:09
+81,Denver,16,Superior,10,2024-07-22 16:09
+82,Denver,16,Timnath,20,2024-07-22 16:09
+83,Seattle,19,Seattle,5,2024-07-22 16:09
+84,Seattle,19,Kirkland,15,2024-07-22 16:09
+85,Seattle,19,Tukwila,5,2024-07-22 16:09
+86,Seattle,19,Redmond,5,2024-07-22 16:09
+87,Seattle,19,Aurora Village,20,2024-07-22 16:09
+88,Seattle,19,Issaquah,15,2024-07-22 16:09
+89,Seattle,19,Woodinville,20,2024-07-22 16:09
+90,Seattle,19,Lynnwood Business Center,5,2024-07-22 16:09
+91,Seattle,19,Lynnwood,15,2024-07-22 16:09
+92,Seattle,19,Silverdale,15,2024-07-22 16:09
+93,Seattle,19,Covington,5,2024-07-22 16:09
+94,Seattle,19,Gig Harbor,30,2024-07-22 16:09
+95,Seattle,19,Everett,10,2024-07-22 16:09
+96,Seattle,19,Federal Way,15,2024-07-22 16:09
+97,Seattle,19,Fife Business Center,10,2024-07-22 16:09
+98,Seattle,19,Tacoma,120,2024-07-22 16:09
+99,Seattle,19,Puyallup,20,2024-07-22 16:09
+100,Seattle,19,Bonney Lake,15,2024-07-22 16:09
+101,Seattle,19,Marysville,15,2024-07-22 16:09
+102,Chicago,14,Chicago South Loop,20,2024-07-22 16:09
+103,Chicago,14,Lincoln Park,5,2024-07-22 16:09
+104,Chicago,14,North Riverside IL,15,2024-07-22 16:09
+105,Chicago,14,Bedford Park Business Center,5,2024-07-22 16:09
+106,Chicago,14,Melrose Park,10,2024-07-22 16:09
+107,Chicago,14,Niles,20,2024-07-22 16:09
+108,Chicago,14,Oak Brook,5,2024-07-22 16:09
+109,Chicago,14,Glenview,20,2024-07-22 16:09
+110,Chicago,14,Mt Prospect,15,2024-07-22 16:09
+111,Chicago,14,Orland Park,20,2024-07-22 16:09
+112,Chicago,14,Bolingbrook,30,2024-07-22 16:09
+113,Chicago,14,Schaumburg,10,2024-07-22 16:09
+114,Chicago,14,Bloomingdale,20,2024-07-22 16:09
+115,Chicago,14,Mettawa,15,2024-07-22 16:09
+116,Chicago,14,Lake Zurich,15,2024-07-22 16:09
+117,Chicago,14,Naperville,10,2024-07-22 16:09
+118,Chicago,14,Merrillville,10,2024-07-22 16:09
+119,Chicago,14,St Charles,15,2024-07-22 16:09
+120,Chicago,14,Lake In The Hills,5,2024-07-22 16:09
+121,Houston,14,Cypress,5,2024-07-22 16:09
+122,Houston,14,Galleria,10,2024-07-22 16:09
+123,Houston,14,Bunker Hill,5,2024-07-22 16:09
+124,Houston,14,Pearland,15,2024-07-22 16:09
+125,Houston,14,Willowbrook,5,2024-07-22 16:09
+126,Houston,14,Humble,10,2024-07-22 16:09
+127,Houston,14,Sugar Land,20,2024-07-22 16:09
+128,Houston,14,Webster,30,2024-07-22 16:09
+129,Houston,14,W Katy,30,2024-07-22 16:09
+130,Houston,14,Woodlands,10,2024-07-22 16:09
+131,Miami,11,Miami,15,2024-07-22 16:09
+132,Miami,11,N Miami,10,2024-07-22 16:09
+133,Miami,11,Miami Lakes,20,2024-07-22 16:09
+134,Miami,11,Kendall,15,2024-07-22 16:09
+135,Miami,11,Pembroke Pines,10,2024-07-22 16:09
+136,Miami,11,Davie,5,2024-07-22 16:09
+137,Miami,11,Pompano,10,2024-07-22 16:09
+138,Miami,11,Coral Springs,5,2024-07-22 16:09
+139,Miami,11,Boca Raton,10,2024-07-22 16:09
+140,Miami,11,Lantana,10,2024-07-22 16:09
+141,Miami,11,Royal Palm Beach,20,2024-07-22 16:09
+142,Miami,11,Palm Beach Gardens,1,2024-07-22 16:09
+143,New York City,17,Brooklyn,15,2024-07-22 16:09
+144,New York City,17,Queens,15,2024-07-22 16:09
+145,New York City,17,Manhattan,10,2024-07-22 16:09
+146,New York City,17,Rego Park,1,2024-07-22 16:09
+147,New York City,17,Staten Island,20,2024-07-22 16:09
+148,New York City,17,Lawrence,5,2024-07-22 16:09
+149,New York City,17,New Rochelle,15,2024-07-22 16:09
+150,New York City,17,Yonkers,10,2024-07-22 16:09
+151,New York City,17,Oceanside,10,2024-07-22 16:09
+152,New York City,17,Westbury,15,2024-07-22 16:09
+153,New York City,17,Port Chester,20,2024-07-22 16:09
+154,New York City,17,Nanuet,5,2024-07-22 16:09
+155,New York City,17,Melville,120,2024-07-22 16:09
+156,New York City,17,Commack,5,2024-07-22 16:09
+157,New York City,17,Nesconset,20,2024-07-22 16:09
+158,New York City,17,Holbrook,5,2024-07-22 16:09
+159,New York City,17,Riverhead,5,2024-07-22 16:09
+160,Inland Empire,13,Chino Hills,5,2024-07-22 16:09
+161,Inland Empire,13,Eastvale,15,2024-07-22 16:09
+162,Inland Empire,13,Fontana,5,2024-07-22 16:09
+163,Inland Empire,13,Lake Elsinore,15,2024-07-22 16:09
+164,Inland Empire,13,Lancaster,20,2024-07-22 16:09
+165,Inland Empire,13,Montclair,10,2024-07-22 16:09
+166,Inland Empire,13,Moreno Valley,10,2024-07-22 16:09
+167,Inland Empire,13,Rancho Cucamonga,10,2024-07-22 16:09
+168,Inland Empire,13,San Bernardino,30,2024-07-22 16:09
+169,Inland Empire,13,Temecula,15,2024-07-22 16:09
+170,Inland Empire,13,Victorville,10,2024-07-22 16:09
+171,Los Angeles,14,Alhambra,5,2024-07-22 16:09
+172,Los Angeles,14,Azusa,5,2024-07-22 16:09
+173,Los Angeles,14,Burbank,10,2024-07-22 16:09
+174,Los Angeles,14,Burbank Business Center,5,2024-07-22 16:09
+175,Los Angeles,14,City of Industry,10,2024-07-22 16:09
+176,Los Angeles,14,Commerce Business Center,15,2024-07-22 16:09
+177,Los Angeles,14,Culver City,5,2024-07-22 16:09
+178,Los Angeles,14,Hawthorne,20,2024-07-22 16:09
+179,Los Angeles,14,Hawthorne Business Center,5,2024-07-22 16:09
+180,Los Angeles,14,Inglewood,15,2024-07-22 16:09
+181,Los Angeles,14,Lakewood,15,2024-07-22 16:09
+182,Los Angeles,14,Los Feliz,20,2024-07-22 16:09
+183,Los Angeles,14,Monterey Park,10,2024-07-22 16:09
+184,Los Angeles,14,Northridge,15,2024-07-22 16:09
+185,Los Angeles,14,Norwalk,20,2024-07-22 16:09
+186,Los Angeles,14,Oxnard,15,2024-07-22 16:09
+187,Los Angeles,14,Pacoima,15,2024-07-22 16:09
+188,Los Angeles,14,San Dimas,10,2024-07-22 16:09
+189,Los Angeles,14,Santa Clarita,15,2024-07-22 16:09
+190,Los Angeles,14,Signal Hill,60,2024-07-22 16:09
+191,Los Angeles,14,Simi Valley,5,2024-07-22 16:09
+192,Los Angeles,14,Torrance,5,2024-07-22 16:09
+193,Los Angeles,14,Van Nuys,20,2024-07-22 16:09
+194,Los Angeles,14,Westlake Village,20,2024-07-22 16:09
+195,Los Angeles,14,Woodland Hills,15,2024-07-22 16:09
+196,Dallas/Fort Worth,15,Arlington,20,2024-07-22 16:09
+197,Dallas/Fort Worth,15,Dallas,15,2024-07-22 16:09
+198,Dallas/Fort Worth,15,Dallas Business Center,10,2024-07-22 16:09
+199,Dallas/Fort Worth,15,Duncanville,30,2024-07-22 16:09
+200,Dallas/Fort Worth,15,E Plano,10,2024-07-22 16:09
+201,Dallas/Fort Worth,15,Fort Worth,15,2024-07-22 16:09
+202,Dallas/Fort Worth,15,Frisco,20,2024-07-22 16:09
+203,Dallas/Fort Worth,15,Lewisville,20,2024-07-22 16:09
+204,Dallas/Fort Worth,15,McKinney,15,2024-07-22 16:09
+205,Dallas/Fort Worth,15,N Fort Worth,10,2024-07-22 16:09
+206,Dallas/Fort Worth,15,Rockwall,10,2024-07-22 16:09
+207,Dallas/Fort Worth,15,Southlake,15,2024-07-22 16:09
+208,Dallas/Fort Worth,15,W Plano,5,2024-07-22 16:09
+209,Las Vegas,15,SW Henderson (Saint Rose Pkwy),20,2024-07-22 16:09
+210,Las Vegas,15,Henderson (Marks St),10,2024-07-22 16:09
+211,Las Vegas,15,Summerlin,20,2024-07-22 16:09
+212,Las Vegas,15,Centennial,15,2024-07-22 16:09
+213,Las Vegas,15,Las Vegas Business Center,10,2024-07-22 16:09
+214,San Diego,11,Carlsbad,5,2024-07-22 16:09
+215,San Diego,11,Carmel Mountain,5,2024-07-22 16:09
+216,San Diego,11,Chula Vista,5,2024-07-22 16:09
+217,San Diego,11,El Centro,5,2024-07-22 16:09
+218,San Diego,11,La Mesa,1,2024-07-22 16:09
+219,San Diego,11,La Quinta,10,2024-07-22 16:09
+220,San Diego,11,Mission Valley,15,2024-07-22 16:09
+221,San Diego,11,Morena,15,2024-07-22 16:09
+222,San Diego,11,Palm Desert,15,2024-07-22 16:09
+223,San Diego,11,Poway,15,2024-07-22 16:09
+224,San Diego,11,Rancho Del Rey,10,2024-07-22 16:09
+225,San Diego,11,San Diego Business Center,10,2024-07-22 16:09
+226,San Diego,11,San Marcos,10,2024-07-22 16:09
+227,San Diego,11,Santee,20,2024-07-22 16:09
+228,San Diego,11,SE San Diego,20,2024-07-22 16:09
+229,San Diego,11,Vista,10,2024-07-22 16:09

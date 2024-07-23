@@ -156,9 +156,33 @@ def costco_data_cleanup(costco_wait_times_list):
     
     # Convert the wait times from String "xmin" to int x
     for col_name in ['city_avg_wait', 'location_wait']:
-        costco_cleaned_df[col_name] = costco_cleaned_df[col_name].str.replace("min", "").astype(int)
+        try:
+            costco_cleaned_df[col_name] = costco_cleaned_df[col_name].str.replace("min", "").astype(int, errors='ignore')
+        except ValueError:
+            print("Could not convert value to a string")
+            print(col_name)
+            
+    # Remove any state tags, single override from New York -> New York City
+    costco_cleaned_df['city_name'] = costco_cleaned_df['city_name'].str.split(',').str[0]
+    
+    costco_cleaned_df['city_name'] = costco_cleaned_df['city_name'].str.replace(
+        "New York", "New York City").astype(int, errors='ignore')
     
     return costco_cleaned_df
+
+def save_to_csv(costco_cleaned_df, current_time):
+    """
+    Save resulting df to single unique csv and combined master csv of all different load times
+    :param Pandas DataFrame costco_cleaned_df: Cleaned dataframe of costco wait times
+    :param datetime current_time: Datetime object of current time (time program was started)
+    """
+    
+    # Save to single csv using datetime as unique ID
+    current_time_csv_tag = re.sub('[^A-Za-z0-9]+', '_', current_time)
+    costco_cleaned_df.to_csv(f"Costco_Wait_Times_US_{current_time_csv_tag}.csv")
+    
+    # Save to master csv (load time will be the unique key for this table)
+    costco_cleaned_df.to_csv('Costco_Wait_Times_US.csv', mode='a', index=False, header=False)
 
 def main():
     """
@@ -187,10 +211,13 @@ def main():
     print(f"Finished pulling all city data. There is data available for {len(costco_wait_times_list)} cities.")
     
     costco_cleaned_df = costco_data_cleanup(costco_wait_times_list)
+    
+    # Add datetime to dataframe
+    costco_cleaned_df['load_time'] = current_time
+    
     print(f"Final DF dtypes: {costco_cleaned_df.dtypes}")
     
-    # Save to csv
-    current_time_csv_tag = re.sub('[^A-Za-z0-9]+', '_', current_time)
-    costco_cleaned_df.to_csv(f"Costco_Wait_Times_US_{current_time_csv_tag}.csv")
+    save_to_csv(costco_cleaned_df, current_time)
+    
     
 main()
